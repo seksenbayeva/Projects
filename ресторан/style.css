@@ -1,0 +1,388 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-image: url(img/pexels-jane-doan-793765%201.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.nav {
+    color: white;
+}
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-item:hover {
+    color: red;
+    transition: color 0.3s linear;
+}
+
+.header-logo .img {
+    height: auto;
+    width: 50%;
+}
+.number {
+    color: black;
+}
+
+.nav-item {
+   color:  black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+}
+.cart {
+    position: relative;
+    border-right: 1px solid #000000;
+    padding-right: 10px;
+    height: 50px;
+}
+.cart-img {
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    width: 25px;
+}
+
+.num {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s linear;
+
+}
+.num:hover {
+    color: red;
+    transition: color 0.3s linear;
+}
+.phone-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.phone-holder {
+    display: flex;
+}
+.phone-img {
+    padding-left:  40px;
+    float: left;
+    margin-right: 10px;
+}
+.but {
+    background-color:#FF7400;
+    color: white;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    
+}
+.but:hover {
+    background-color:#000000;
+    transition: background-color 0.2s linear;
+}
+.header-down {
+    position: relative;
+}
+
+.rectangle {
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    left: 130px;
+    top: 302px;
+    background: rgba(255, 241, 241, 0.33);
+  }
+  
+  .rectangle p {
+    color: #fff;
+    font-family: 'Tinos', serif;
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
+    left: 175px;    
+}
+.header-suptitle {
+    color: #0e0b0b;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 100px;
+    text-align: center;
+    transform: translateY(-40%);
+
+}
+.header-suptitle:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #0e0d0d;
+    top: 16px;
+    left: 178px;
+}
+.header-suptitle:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #0e0d0d;
+    top: 16px;
+    left: 461px;
+}
+.header-button {
+    background-color: #FF7400;
+    padding: 20px 35px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    transform: translateX(20px);
+    transform: translateY(-400px);  
+    margin-left: 250px;
+    top: 720px;
+    position: absolute;
+    transition: background-color 0.5s linear;
+   
+}
+
+.header-button:hover {
+    background-color: black;
+}
+
+.card {
+    width: 349px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #fff;
+    margin-top: -80px;
+    padding: 10px 10px 10px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+.card-desc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #656363;
+
+}
+.card-title span {
+    color: #BC9060;
+    margin-left: 5px;
+}
+.cards-holder {
+    display: flex;
+    justify-content: center;
+}
+.history {
+    margin-top: 166px;
+    padding-bottom: 200px; 
+}
+.history-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 275px;
+    margin-bottom: 20px;
+}
+.history-title span{
+    color: #BC9060;
+    margin-left: 5px;
+}
+.history-desc {
+    color: #656363;
+    font-size: 20px;
+    width: 600px;
+    text-align: center;
+    margin-left: 200px;
+
+}
+
+
+
+
+.history-number {
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 220px;
+}
+.number-item {
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #BC9060;
+
+}
+
+
+
+
+.number-item span {
+    display: block;
+    color: #000;
+    font-size: 30px;
+}
+
+
+
+.history-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-images {
+  position: relative;
+  left: -500px;
+  top: 100px;
+}
+.images-1 {
+    position: absolute;
+    z-index: 0;
+    top: 54px;
+    left: -270px;
+}
+.images-2 {
+  z-index: 999; 
+  position: absolute;
+  left: 273px;
+  top: 0;
+}
+
+
+
+
+.black-box {
+    background-image: url(img/bg.jpg);
+}
+
+
+
+
+.left-title {
+    color: #D67E34;
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    right: 20px;
+    margin-left: 70px;
+    padding-top: 30px;
+    
+    
+}
+
+.left-text {
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    margin-left: 70px;
+}
+
+.right-btn {
+    background-color: #FF7400;
+    padding: 20px 35px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    transform: translateX(20px) translateY(-300px);  
+    margin-left: 1400px;
+    bottom: -1450px;
+    position: absolute;
+    transition: background-color 0.5s linear;
+}
+.right-btn:hover
+{
+    background-color:#000000;
+    transition: background-color 0.2s linear;
+
+}
+
+.dishes-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 102px;
+    margin-bottom: 139px;
+}
+.dishes-title span {
+    color: #BC9060;
+}
+
+
+
+.burgers {
+    display: flex;
+    justify-content: center;
+}
+.burger-item {
+   display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+.pizza
+{
+    margin-left: 50px;
+    width: 650px;
+    
+}
+.burger-image {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+
+
+.burger-text {
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    margin-left: 20px;
+  
+}
+
+
+
+.menu {
+    background-image: url(img/d6a52b51-0f3a-4659-90fe-85c2f3bd229e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
