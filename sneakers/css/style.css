@@ -1,0 +1,60 @@
+html,
+body,
+.view {
+    height: 100%;
+}
+.carousel {
+    height: 50%;
+}
+.carousel .carousel-inner {
+    height: 100%;
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+    height: 100%;
+}
+
+.bg-red{
+    background-color: rgb(255, 73, 60);
+}
+.box {
+    background-color: blue;
+
+}
+.my-carousel {
+    padding: 0;
+}
+.my-carousel .carousel-item {
+    display: flex;
+    max-height: 500px;
+}
+.my-carousel .carousel-item  img{
+    object-fit: cover;
+}
+
+@media (max-width: 776px) {
+    .carousel {
+        height: 100%;
+    }
+}
+.hover-image-scale {
+    display: inline-block;
+    overflow: hidden;
+    /* Скрываем всё за контуром */
+}
+
+.hover-image-scale img {
+    transition: 1s;
+    /* Время эффекта */
+    display: block;
+}
+
+.hover-image-scale img:hover {
+    transform: scale(1.2);
+    /* Увеличиваем масштаб */
+}
+.carousel-item img{
+    height: 370px;
+   
+}
