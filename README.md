@@ -1,3 +1,3 @@
 # Projects
 My projects and portfolio
-Sites
+Web-site skin care shop
